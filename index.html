@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guessing Game</title>
+</head>
+<body>
+    <main>
+        <h1>Jeu de Devinette</h1>
+        <p>Devinez un nombre entre 1 et 100</p>
+        <p >Nombre d'essai <span class="essaie"></span>: <span class="essaie1"></span></p>
+        <div class="boitePopupJs">
+            <h1 class="title">Poppup</h1>
+            <div class="message">
+            </div>
+            <img src="images/icons8-close-button-64.png" alt="" onclick="afficherPoppup()"> 
+        </div>
+        <div class="form">
+            <input type="text" class="input" placeholder="Entrez un nombre">
+            <button class="btn" onclick="afficherPoppup()">GO</button>
+        </div>
+           <div class="link"><a href="index.html">Recommencer</a></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
